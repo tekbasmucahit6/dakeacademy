@@ -14,7 +14,7 @@ function Carousel() {
     autoplaySpeed: 4000      // Otomatik kaydırma hızı (ms)
       };
   return (
-    <div className='max-w-full overflow-x-hidden flex justify-center items-center'>
+    <div className='max-w-full overflow-x-hidden flex justify-center items-center mt-1'>
         <Slider className='w-full' {...settings}>
         <div>
           <img src="https://www.theme-junkie.com/wp-content/uploads/instagram-carousel-templates-examples.jpg" className='w-full' alt="Slide 1" />
