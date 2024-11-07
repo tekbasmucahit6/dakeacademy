@@ -3,6 +3,7 @@ import Logo from './Logo'
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineHomeWork } from "react-icons/md";
+import { IoMailSharp } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 function Footer() {
   return (
@@ -13,7 +14,7 @@ function Footer() {
                 <Logo />
             </div>
             {/* MİDDLE SECTİON */}
-            <div className='flex flex-col justify-center items-center gap-5'>
+            <div className='flex flex-col justify-start items-center gap-5'>
                 <strong>İletişim</strong>
                 <div className='flex flex-col justify-center items-center gap-3'>
                     {/* phone number */}
@@ -26,15 +27,20 @@ function Footer() {
                         <FaWhatsapp className='text-green-600 text-xl' />
                         +90 (552) 681 60 60
                     </a>
+                    {/* mail number */}
+                    <a href="mailto:egitimdake@gmail.com" className='flex justify-center items-center gap-2'>
+                        <IoMailSharp className='text-red-600 text-xl' />
+                        +90 (552) 681 60 60
+                    </a>
                     {/* adress */}
-                    <a href="" className='flex justify-center items-center gap-2'>
-                        <MdOutlineHomeWork className='text-amber-600 text-xl' />
+                    <a href="" className='flex justify-center items-start gap-2 w-[200px]'>
+                        <MdOutlineHomeWork className='text-amber-600 text-5xl' />
                        <p>yeşilırmak mahallesi GOP bulvarı Merkez/TOKAT</p>
                     </a>
                 </div>
             </div>
             {/* RİGHT SECTİON */}
-            <div className='flex flex-col justify-center items-center gap-5'>
+            <div className='flex flex-col justify-start items-center gap-5'>
                 <strong>DAKE AKADEMİ</strong>
                 <div className='flex flex-col justify-center items-center gap-3'>
                     {/* phone number */}

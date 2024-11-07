@@ -7,7 +7,7 @@ function Header() {
        <Logo />
         <div className='flex justify-center items-center gap-5'>
             <Link to={"/login"}>
-                <button className='bg-[rgb(249,3,66)] p-2 text-white rounded'>giriş yap</button>
+                <button className='bg-[rgb(249,3,66)] hover:bg-[rgb(249,60,90)] p-2 text-white rounded'>giriş yap</button>
             </Link>
             <Link to={"/sign-Up"}>
                 <button className='border-2 p-2 rounded'>kayıt ol</button>
