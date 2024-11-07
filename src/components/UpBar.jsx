@@ -12,7 +12,7 @@ function UpBar() {
         </p>
 
         <p className='hidden xl:flex lg:flex md:flex font-normal gap-1'>
-            geleceğiniz için en uygun yol <strong className='text-red-500'> DAKEAKADEMİ</strong>
+            Geleceğiniz İçin En Doğru Yol <strong className='text-red-500'> DAKEAKADEMİ</strong>
         </p>
 
         <p className=' text-[rgb(51,51,51)]'>

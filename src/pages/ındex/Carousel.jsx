@@ -17,16 +17,10 @@ function Carousel() {
     <div className='max-w-full overflow-x-hidden flex justify-center items-center mt-1'>
         <Slider className='w-full' {...settings}>
         <div>
-          <img src="https://www.theme-junkie.com/wp-content/uploads/instagram-carousel-templates-examples.jpg" className='w-full' alt="Slide 1" />
+          <img src={"../img/AKADEMİ.png"} className='w-full' alt="Slide 1" />
         </div>
         <div>
-          <img src="https://www.theme-junkie.com/wp-content/uploads/instagram-carousel-templates-examples.jpg" className='w-full' alt="Slide 2" />
-        </div>
-        <div>
-          <img src="https://www.theme-junkie.com/wp-content/uploads/instagram-carousel-templates-examples.jpg" className='w-full' alt="Slide 3" />
-        </div>
-        <div>
-          <img src="https://www.theme-junkie.com/wp-content/uploads/instagram-carousel-templates-examples.jpg" className='w-full ' alt="Slide 4" />
+          <img src={"../img/content.png"} className='w-full' alt="Slide 2" />
         </div>
         </Slider>
     </div>
