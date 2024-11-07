@@ -2,8 +2,8 @@ import React from 'react'
 
 function Prefer() {
   return (
-    <div className='my-16 flex justify-center items-center'>
-        <div className='grid grid-cols-2 xl:max-w-[500px] lg:max-w-[500px] md:max-w-[300px] p-2 gap-5'>
+    <div className='my-24 flex justify-center items-center'>
+        <div className='grid grid-cols-2 xl:max-w-[800px] lg:max-w-[500px] md:max-w-[400px] p-2 gap-5'>
             <div className='flex justify-center items-center'>
                 <h1 className='text-2xl xl:text-5xl lg:text-5xl md:text-3xl'>+20.000</h1>
             </div>
