@@ -42,11 +42,11 @@ function Footer() {
                         Anasayfa
                     </Link>
                     {/* whatsapp number */}
-                    <Link to={""} className='flex justify-center items-center gap-2 hover:bg-white px-6 rounded'>
+                    <Link to={"/login"} className='flex justify-center items-center gap-2 hover:bg-white px-6 rounded'>
                         login
                     </Link>
                     {/* adress */}
-                    <Link to={""} className='flex justify-center items-center gap-2 hover:bg-white px-6 rounded'>
+                    <Link to={"/sign-up"} className='flex justify-center items-center gap-2 hover:bg-white px-6 rounded'>
                         sign up
                     </Link>
                 </div>
